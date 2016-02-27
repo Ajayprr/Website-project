@@ -1,0 +1,369 @@
+<<DOCTYPE html>
+<head>
+    <title>Artist
+    </title>
+    <style>
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </style>
+     <script>
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "black";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "black";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+     
+    </script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <style>
+    
+        
+    
+    }
+    .srk{
+        background-color: blue;
+       height: 50;
+        width: 50;
+        right:100;
+        bottom: 10;
+        position: relative;
+        z-index: +2;
+    
+    }
+        
+    button, #bn{
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    left:80px;
+    position:relative;
+    border-radius:100px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 3px 50px #2f6627;
+}
+       
+        table, th, td {
+    border: 1px solid black;
+ border-collapse: collapse;
+text-align:center;
+padding:20px;
+font-size:30px;
+            
+}
+#a{
+background-color:red;
+}
+#c{
+background-color:green;
+}
+#b{
+background-color:orange;
+}
+.rd{
+    width:200%;
+}
+        
+      
+        
+    }</style>
+
+    
+    
+    
+    </head>
+<body >
+   
+
+    <img src="1head.jpg" alt="SRK" width=1366 height=100>
+     <hr style="border-color:black">
+<div class="fan" >
+    <button type="button">HOME</button>
+    <button type="button">ABOUT</button>
+    <button type="button">MOVIES</button>
+    <button id='bms' onClick='window.open("http://in.bookmyshow.com/","demo","width=550,height=300,left=150,top=200,toolbar=0,status=0,")' onmouseover="butbms(this)" onmouseout="butbm()">BOOK NOW</button>
+   <select name='Buy Now' id="bn" onmouseover="butbms1(this)" onmouseout="butbm1()" onchange="location = this.options[this.selectedIndex].value;" >
+    <option value='' selected>Buy Now</option>
+    <option id ='o1' value='http://www.amazon.in/' >DVD</option>
+    <option id='o2' value='http://www.snapdeal.com/'>Songs</option>
+    
+</select>
+    <button  id='nw'type="button" onmouseover="butbms2(this)" onmouseout="butbm2()">NEWS</button>
+    <button  id='at' type="button" onmouseover="butbms4(this)" onmouseout="butbm4()">ARTISTS</button>
+    <button  id='cs'type="button" onmouseover="butbms3(this)" onmouseout="butbm3()">CALL US</button>
+   </div>
+    
+   <hr style="border-color:black; border-width=20px; ">
+    
+    
+    <table>
+<caption style="font-size:50px;font-weight: bold;text-decoration: overline; ">Artist Statisticcs</caption>
+  <tr >
+    <th>Artist</th>
+    <th>Movie</th>
+<th>Director</th>
+<th>DOP</th>
+<th>Salary</th>
+<th>Actress</th>
+<th>Promotion</th>
+<th colspan='2'>Release Date</th>
+<th>POB</th>
+  </tr>
+  <tr id='b'>
+    <td>Brad Pitt</td>
+    <td>Game of Thrones</td>
+<td>Brett Lee</td>
+    <td>Sachin Tendulkar</td>
+<td>200</td>
+    <td>Some Lee</td>
+<td>Yes</td>
+<td colspan='2'>1-1-2001</td>
+<td>Yes</td>
+  </tr>
+  <tr id='a'>
+    <td>John</td>
+    <td>America</td>
+<td>Africa</td>
+    <td>Rajmouli</td>
+<td>300</td>
+    <td>Rama Rajmouli</td>
+<td>Yes</td>
+<td colspan='2'>2-1-2011</td>
+<td>No</td>
+  </tr>
+<tr id='b'>
+    <td>Ricky Ponting</td>
+    <td>Sicario</td>
+<td>Aishwarya</td>
+    <td>Sendil</td>
+<td>100</td>
+    <td>Maduri Dixit</td>
+<td>Yes</td>
+<td colspan='2'>10-2-2031</td>
+<td>Yes</td>
+  </tr>
+<tr id='b'>
+    <td>Salman Khan</td>
+    <td>Kick 4</td>
+<td>Rohit Shetty</td>
+    <td>Shahid Kapoor</td>
+<td>200</td>
+    <td>Mira Rajput</td>
+<td>Yes</td>
+<td colspan='2'>10-3-2011</td>
+<td>No</td>
+  </tr>
+<tr id='a'>
+    <td>Shahrukh Khan</td>
+    <td>DDLK</td>
+<td>Gauri Khan</td>
+    <td>Aryan Khan</td>
+<td>400</td>
+    <td>Suhana Khan</td>
+<td>Yes</td>
+<td colspan='2'>1-1-1995</td>
+<td>No</td>
+  </tr>
+<tr id='a'>
+    <td>John Abraham</td>
+    <td>I me Aur Mai</td>
+<td>Ram Charan</td>
+    <td>Mahesh Babu</td>
+<td>600</td>
+    <td>Tamana</td>
+<td>Yes</td>
+<td colspan='2'>5-7-2003</td>
+<td>Yes</td>
+  </tr>
+<tr id='c'>
+    <td>Nitin</td>
+    <td>Bale Bale </td>
+<td>Rahul G</td>
+    <td>Self</td>
+<td>20</td>
+    <td>Anushka</td>
+<td>No</td>
+<td colspan='2'>7-3-1999</td>
+<td>No</td>
+  </tr>
+</table>
+<div style="font-size:40px; font-weight:30px">
+    Legend<br>
+    
+    <span style="color:green;">Green- </span>Safe
+     <span style="color:red">Red-</span>Unsafe
+     <span style="color:orange">Orange-</span>Warning
+    </div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DOCTYPE>

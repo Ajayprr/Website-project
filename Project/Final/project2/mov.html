@@ -1,0 +1,595 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+       <script>
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "blue";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms5()
+        {
+             var i=document.getElementById("home");
+            i.style.color = "red";
+
+                    }
+        function butbm5()
+        {
+            var i=document.getElementById("home");
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "red";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+        function butbms6()
+        {
+             var i=document.getElementById("about");
+            i.style.color = "red";
+
+                    }
+        function butbm6()
+        {
+            var i=document.getElementById('about');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms7()
+        {
+             var i=document.getElementById("movie");
+            i.style.color = "red";
+
+                    }
+        function butbm7()
+        {
+            var i=document.getElementById('movie');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+        function foot(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="red";
+        }
+        function foo(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="white";
+        }
+        function foot1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="red";
+        }
+        function foo1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="white";
+        }
+        function foot2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="red";
+        }
+        function foo2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="white";
+        }
+        
+        
+     
+    </script>
+
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    
+    }
+        <!-- Button decoration-->
+    .srk{
+        background-color: blue;
+       height: 50;
+        width: 50;
+        right:100;
+        bottom: 10;
+        position: relative;
+        z-index: +2;
+    
+    }
+        
+    button, #bn{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    left:80px;
+    position:relative;
+    border-radius:100px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 3px 50px #2f6627;
+} 
+         <!-- Button decoration-->
+      
+        
+    }</style>
+
+  </head>
+    
+  <body>
+        
+         
+<!--Star of header picture and buttons-->
+    <img src="1head.jpg" alt="SRK" width=1366 height=100>
+     <hr style="border-color:black">
+<div class="fan" >
+    <button id="home" type="button" onmouseover="butbms5(this)" onmouseout="butbm5()" onClick='window.open("lister.html.html")'>HOME</button>
+    <button id="about" type="button" onmouseover="butbms6(this)" onmouseout="butbm6()" onClick='window.open("lister.html.html")'>ABOUT</button>
+    <button id="movie" type="button" onmouseover="butbms7(this)" onmouseout="butbm7()" onClick='window.open("mov.html")'>MOVIES</button>
+    <button id='bms' onClick='window.open("http://in.bookmyshow.com/","demo","width=550,height=300,left=150,top=200,toolbar=0,status=0,")' onmouseover="butbms(this)" onmouseout="butbm()">BOOK NOW</button>
+   
+    
+    
+    
+    
+    
+    <select name='Buy Now' id="bn" onmouseover="butbms1(this)" onmouseout="butbm1()" onchange="location = this.options[this.selectedIndex].value;" >
+    <option value='' selected>Buy Now</option>
+    <option id ='o1' value='http://www.amazon.in/' >DVD</option>
+    <option id='o2' value='http://www.snapdeal.com/'>Songs</option>
+    
+</select>
+    <button  id='nw'type="button" onmouseover="butbms2(this)" onmouseout="butbm2()" onClick='window.open("news.html")'>NEWS</button>
+    <button  id='at' type="button" onmouseover="butbms4(this)" onmouseout="butbm4()" onClick='window.open("artist.html")'>ARTISTS</button>
+    <button  id='cs'type="button" onmouseover="butbms3(this)" onmouseout="butbm3()" onClick='window.open("contact.html")'>Contact US</button>
+   </div>
+    
+
+    <hr style="border-color:black; border-width=20px; ">
+  <!--End of header picture and buttons-->
+      <hr>
+      
+      
+      
+      
+          
+          <canvas id="myCanvas"   width="380" height="350" style="border:10px solid white;"></canvas>
+          
+<canvas id="myCanvas1"  width="380" height="350" style="border:10px solid white;"></canvas>
+<canvas id="myCanvas2"  width="380" height="350" style="border:10px solid white;"></canvas>
+          
+
+<canvas id="myCanvas3"  width="380" height="350" style="border:10px solid white;"></canvas>
+     <canvas id="myCanvas4"  width="380" height="350" style="border:10px solid white;"></canvas>
+<canvas id="myCanvas5"  width="380" height="350" style="border:10px solid white;"></canvas>
+      <canvas id="myCanvas6"  width="380" height="350" style="border:10px solid white;"></canvas>
+
+  </body>
+<script>
+      
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "blue";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms5()
+        {
+             var i=document.getElementById("home");
+            i.style.color = "red";
+
+                    }
+        function butbm5()
+        {
+            var i=document.getElementById("home");
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "red";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+        function butbms6()
+        {
+             var i=document.getElementById("about");
+            i.style.color = "red";
+
+                    }
+        function butbm6()
+        {
+            var i=document.getElementById('about');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms7()
+        {
+             var i=document.getElementById("movie");
+            i.style.color = "red";
+
+                    }
+        function butbm7()
+        {
+            var i=document.getElementById('movie');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+        function foot(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="red";
+        }
+        function foo(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="white";
+        }
+        function foot1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="red";
+        }
+        function foo1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="white";
+        }
+        function foot2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="red";
+        }
+        function foo2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="white";
+        }
+        
+        
+    
+    
+    
+            
+var c = document.getElementById("myCanvas");
+var context = c.getContext("2d");
+  
+
+     context.font = "bold 30px Times New Roman";
+context.fillText("Baahubali", 110, 347);
+var imageObj = new Image();
+      imageObj.onload = function() {
+          
+   
+        var pattern = context.createPattern(imageObj, 'no-repeat');
+context.beginPath();
+context.arc(175, 175, 150, 0, 2 * Math.PI);
+  context.fillStyle = pattern;
+        context.fill();
+context.stroke();
+      };
+    imageObj.onclick=function(){
+        window.open("http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_open");
+    };
+        imageObj.src="lm2.jpg";
+          
+    document.getElementById("myCanvas").onclick = function() {myFunction()};
+
+function myFunction() {
+    window.open('baahubali.html');
+}
+         
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                          
+var c1 = document.getElementById("myCanvas1");
+var context1 = c1.getContext("2d");
+  
+
+     context1.font = "bold 30px Times New Roman";
+context1.fillText("Bajrangi Bhaijaan", 110, 347);
+var imageObj1 = new Image();
+      imageObj1.onload = function() {
+          
+   
+        var pattern1 = context1.createPattern(imageObj1, 'no-repeat');
+context1.beginPath();
+context1.arc(175, 175, 150, 0, 2 * Math.PI);
+  context1.fillStyle = pattern1;
+        context1.fill();
+context1.stroke();
+         
+         
+};
+  
+      imageObj1.src ='lm1.jpg' ;
+    
+ document.getElementById("myCanvas1").onclick = function() {myFunction2()};
+
+function myFunction2() {
+    window.open('bajrangi.html');
+}   
+                           
+var c2 = document.getElementById("myCanvas2");
+var context2 = c2.getContext("2d");
+  
+
+     context2.font = "bold 30px Times New Roman";
+context2.fillText("Chak De India", 110, 347);
+var imageObj2 = new Image();
+      imageObj2.onload = function() {
+          
+   
+        var pattern2 = context2.createPattern(imageObj2, 'no-repeat');
+context2.beginPath();
+context2.arc(175, 175, 150, 0, 2 * Math.PI);
+  context2.fillStyle = pattern2;
+        context2.fill();
+context2.stroke();
+         
+         
+};
+  
+      imageObj2.src ='lm3.jpg' ;
+    
+    
+    document.getElementById("myCanvas2").onclick = function() {myFunction1()};
+
+function myFunction1() {
+    window.open('cdi.html');
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+            
+var c3 = document.getElementById("myCanvas3");
+var context3 = c3.getContext("2d");
+  
+
+     context3.font = "bold 30px Times New Roman";
+context3.fillText("Dilwale", 110, 347);
+var imageObj3 = new Image();
+      imageObj3.onload = function() {
+          
+   
+        var pattern3 = context3.createPattern(imageObj3, 'no-repeat');
+context3.beginPath();
+context3.arc(175, 175, 150, 0, 2 * Math.PI);
+  context3.fillStyle = pattern3;
+        context3.fill();
+context3.stroke();
+      };
+    imageObj3.src="dilwale2.jpg";
+    
+     document.getElementById("myCanvas3").onclick = function() {myFunction3()};
+
+function myFunction3() {
+    window.open('dilwale.html');
+}
+    
+    
+    
+    
+    
+    
+    
+    
+            
+var c4 = document.getElementById("myCanvas4");
+var context4 = c4.getContext("2d");
+  
+
+     context4.font = "bold 30px Times New Roman";
+context4.fillText("Sardar Gabbar Singh", 75, 347);
+var imageObj4 = new Image();
+      imageObj4.onload = function() {
+          
+   
+        var pattern4 = context4.createPattern(imageObj4, 'no-repeat');
+context4.beginPath();
+context4.arc(175, 175, 150, 0, 2 * Math.PI);
+  context4.fillStyle = pattern4;
+        context4.fill();
+context4.stroke();
+      };
+    imageObj4.src="lms.jpg";
+     document.getElementById("myCanvas4").onclick = function() {myFunction4()};
+
+function myFunction4() {
+    window.open('2s.html.html');
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            
+var c5 = document.getElementById("myCanvas5");
+var context5 = c5.getContext("2d");
+  
+
+     context5.font = "bold 30px Times New Roman";
+context5.fillText("Tamasha", 110, 347);
+var imageObj5 = new Image();
+      imageObj5.onload = function() {
+          
+   
+        var pattern5 = context5.createPattern(imageObj5, 'no-repeat');
+context5.beginPath();
+context5.arc(175, 175, 150, 0, 2 * Math.PI);
+  context5.fillStyle = pattern5;
+        context5.fill();
+context5.stroke();
+      };
+    imageObj5.src="lmt.jpg";
+    
+     document.getElementById("myCanvas5").onclick = function() {myFunction5()};
+
+function myFunction5() {
+    window.open('1s.html');
+}
+    
+    
+             
+var c6 = document.getElementById("myCanvas6");
+var context6 = c6.getContext("2d");
+  
+
+     context6.font = "bold 30px Times New Roman";
+context6.fillText("Upcoming", 110, 347);
+var imageObj6 = new Image();
+      imageObj6.onload = function() {
+          
+   
+        var pattern6 = context6.createPattern(imageObj6, 'no-repeat');
+context6.beginPath();
+context6.arc(175, 175, 150, 0, 2 * Math.PI);
+  context6.fillStyle = pattern6;
+        context6.fill();
+context6.stroke();
+      };
+    imageObj6.src="upcoming.jpg";
+    
+     document.getElementById("myCanvas6").onclick = function() {myFunction6()};
+
+function myFunction6() {
+    window.open('upcoming.html');
+}  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+   
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    </script>
+</html>
+      

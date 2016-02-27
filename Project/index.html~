@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>movie</title>
+<meta name="keywords" content="About movie" />
+
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="templatemo_wrapper_outter">
+<div id="templatemo_wrapper_inner">
+<div id="templatemo_wrapper">
+<div id="templatemo_container">
+    <div id="templatemo_header">
+     <div id="header_right">
+      <img src="l.jpg" height="230" width="280"/>
+      </div> <!-- end of header right -->
+         <div class="cleaner"></div>
+    </div> <!-- end of header -->
+    
+    <div id="templatemo_content_wrapper">
+    
+    	<div id="templatemo_content_outer">
+        
+        	<div id="templatemo_content">
+            
+            	<div class="content_section">
+            
+                    <h2>ABOUT MOVIE</h2>
+                    
+                     <p>Tamasha (English: Farce) is an upcoming Indian romantic drama film directed by Imtiaz Ali and produced by Sajid Nadiadwala. It stars Ranbir Kapoor and Deepika Padukone in lead roles. Tamasha tells the story of character "Ved" (played by Ranbir Kapoor) who loses his self by living according to the social conventions expected of him.[1] Principal photography began in Corsica, France in July 2014. Post this schedule, filming continued briefly in Indian cities—Shimla, Delhi, Gurgaon and Kolkata followed by two-day schedule in Tokyo, Japan. The filming concluded in Mumbai by August 2015</p>
+               	 
+                        
+            	</div>
+                
+                <div class="content_section">
+                
+                	<h2> MOVIE STILLS FROM TAMASHA</h2>
+                        <img src ="1.jpg" height="154" width="154" /><img src ="2.jpg" height="154" width="154"  /> 
+                        <img src ="3.jpg" height="154" width="154"  /> <img src ="4.jpg" height="154" width="154"  />    
+                         <img src ="6.jpg" height="154" width="154"  /> <img src ="5.jpg" height="154" width="154"  />        
+               
+                    
+                    
+                  
+                    <div class="button_01"><a href="https://www.google.co.in/search?q=tamasha+images&espv=2&biw=1366&bih=659&tbm=isch&tbo=u&source=univ&sa=X&ved=0CB4QsARqFQoTCNHW-NmohckCFccIjgodVt4ICw">View All IMAGES</a></div>
+                
+                	
+            </div>
+            
+            </div><!-- end of templatemo_content -->
+             <div id="templatemo_content_bottom"></div>
+        
+        	<div class="cleaner"></div>
+        </div> <!-- end of templatemo_content_outer -->
+        <div class="cleaner"></div>
+        </div> <!-- end of templatemo_content_wrapper -->
+<div class="cleaner"></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

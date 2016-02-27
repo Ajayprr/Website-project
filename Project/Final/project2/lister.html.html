@@ -1,0 +1,225 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>
+Lister
+</title>
+ 
+    <script>
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "blue";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms5()
+        {
+             var i=document.getElementById("home");
+            i.style.color = "red";
+
+                    }
+        function butbm5()
+        {
+            var i=document.getElementById("home");
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "red";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+        function butbms6()
+        {
+             var i=document.getElementById("about");
+            i.style.color = "red";
+
+                    }
+        function butbm6()
+        {
+            var i=document.getElementById('about');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms7()
+        {
+             var i=document.getElementById("movie");
+            i.style.color = "red";
+
+                    }
+        function butbm7()
+        {
+            var i=document.getElementById('movie');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+        function foot(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="red";
+        }
+        function foo(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="white";
+        }
+        function foot1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="red";
+        }
+        function foo1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="white";
+        }
+        function foot2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="red";
+        }
+        function foo2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="white";
+        }
+        
+        
+        
+    </script>
+    <style>
+    .foot{
+        background-color: black;
+    }
+    .fan{
+    background-image: url(1body.jpg);
+        background-size: cover;
+       background-repeat: no-repeat;
+        width:1000;
+        height: 500;
+         z-index: -1;
+        
+    
+    }
+    .srk{
+        background-color: blue;
+       height: 50;
+        width: 50;
+        right:100;
+        bottom: 10;
+        position: relative;
+        z-index: +2;
+    
+    }
+        
+    button, #bn{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    left:80px;
+    position:relative;
+    border-radius:100px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 3px 50px #2f6627;
+}
+        #aside{
+        
+            position:absolute;
+            right:10px;
+            top:120px;
+             z-index: -1;
+         background-color:maroon;
+            height:500px;
+        }
+        
+    }</style>
+    
+    </head>
+<body>
+    <img src="1head.jpg" alt="SRK" width=1366 height=100>
+     <hr style="border-color:black">
+
+    
+    <div class="fan" >
+    <button id="home" type="button" onmouseover="butbms5(this)" onmouseout="butbm5()"  onClick='window.open("http://localhost/Project/page1.php")'>HOME</button>
+    <button id="about" type="button" onmouseover="butbms6(this)" onmouseout="butbm6()" onClick='window.open("http://localhost/Project/page1.php#content3")'>ABOUT</button>
+    <button id="movie" type="button" onmouseover="butbms7(this)" onmouseout="butbm7()" onClick='window.open("mov.html")'>MOVIES</button>
+    <button id='bms' onClick='window.open("http://in.bookmyshow.com/","demo","width=550,height=300,left=150,top=200,toolbar=0,status=0,")' onmouseover="butbms(this)" onmouseout="butbm()">BOOK NOW</button>
+   <select name='Buy Now' id="bn" onmouseover="butbms1(this)" onmouseout="butbm1()" onchange="location = this.options[this.selectedIndex].value;" >
+    <option value='' selected>Buy Now</option>
+    <option id ='o1' value='http://www.amazon.in/' >DVD</option>
+    <option id='o2' value='http://www.snapdeal.com/'>Songs</option>
+    
+</select>
+    <button  id='nw'type="button" onmouseover="butbms2(this)" onmouseout="butbm2()" onClick='window.open("news.html")'>NEWS</button>
+    <button  id='at' type="button" onmouseover="butbms4(this)" onmouseout="butbm4()" onClick='window.open("artist.html")'>ARTISTS</button>
+    <button  id='cs'type="button" onmouseover="butbms3(this)" onmouseout="butbm3()" onClick='window.open("contact.html")'>Contact US</button>
+   </div>
+   <aside id="aside">
+       <h1 style="right:5px; top:250px;">Duniya Ke Sabse Bade<br> Superstar ka Sabse Bada<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp    <span style="color:red" >'Fan'</span><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<bold>Watch Now!</bold> </h1>
+    <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  
+  
+</video>     
+    </aside> 
+    
+        
+     
+    </body>
+    <footer class="foot">
+    <a id='f1' href="https://www.google.co.in/?gfe_rd=cr&ei=j98-VuuZKrTv8weWiI-4Cg&gws_rd=ssl" style="color:white" onmouseover="foot(this)" onmouseout="foo(this)">Like our facebook page</a>
+        &nbsp;
+    <a  id='f2' href="https://www.google.co.in/?gfe_rd=cr&ei=j98-VuuZKrTv8weWiI-4Cg&gws_rd=ssl" style="color:white" onmouseover="foot1(this)" onmouseout="foo1(this)">Follow us on twitter</a>
+         &nbsp;
+    <a id='f3' href="https://www.google.co.in/?gfe_rd=cr&ei=j98-VuuZKrTv8weWiI-4Cg&gws_rd=ssl" style="color:white" onmouseover="foot2(this)" onmouseout="foo2(this)">Gmail </a>
+        <span style="color:white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SKY PRODUCTION</span>
+    <p></p>
+    </footer>
+    </html>

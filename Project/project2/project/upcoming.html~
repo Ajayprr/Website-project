@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>movies</title>
+<style>
+#kri {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -250px; 
+   margin-left: -250px;
+} 
+#k
+  {
+ position: absolute;
+   top: 0%;
+   left: 0%;
+   width: 400px;
+   height: 400px;
+   margin-top: -0px; 
+   margin-left: -0px; 
+  }
+
+body { 
+  background: url("krishna.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+</style>
+ <script type = "text/javascript">
+          function displayNextImage() {
+              x = (x === images.length - 1) ? 0 : x + 1;
+              document.getElementById("img").src = images[x];
+             
+              document.getElementById("k").innerHTML = i[x];
+          }
+
+          function displayPreviousImage() {
+              x = (x <= 0) ? images.length - 1 : x - 1;
+              document.getElementById("img").src = images[x];
+              document.getElementById("k").innerHTML = i[x];
+          }
+
+          function startTimer() {
+              setInterval(displayNextImage, 2000);
+          }
+
+          var images = [], x = -1;
+          images[0] = "io.jpg";
+          images[1] = "j.jpg";
+          images[2] = "a.jpg";
+          images[3] = "d.jpg";
+          images[4] = "e.jpg";
+          images[5] = "f.jpg";
+          var i =[];
+          i[0]  = "DHONI";
+          i[1]  = "Iron Man";
+          i[4]  = "SULTAN";
+          i[2]  = "SARDAR GABBAR SINGH";i[3] = "RAEES";
+          i[5]  = "TAMASHA";
+       </script>
+</head>
+<body onload = "startTimer()">
+<h1 style="color:white;text-align:center;"> <em> MOVIES FROM OUR PRODUCTIONS</em></h1>
+<div id ="kri" >
+<img id="img" height="400" width ="400" src="i.jpg"></img>
+<h1 id ="k" style="color:yellow">BAHUBALI-2</h1>
+<p><button onclick="displayPreviousImage()">PREV</button>&nbsp;<button onclick="displayNextImage()">NEXT</button></p>
+<div id="k">
+<h1>MOVIE STILLS FROM OUR PRODUCTIONS</h1>
+</div>
+</div>
+
+</body>
+</html>

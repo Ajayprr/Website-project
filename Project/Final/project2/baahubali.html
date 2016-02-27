@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    
+    }
+        <!-- Button decoration-->
+    .srk{
+        background-color: blue;
+       height: 50;
+        width: 50;
+        right:100;
+        bottom: 10;
+        position: relative;
+        z-index: +2;
+    
+    }
+        
+    button, #bn{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    left:80px;
+    position:relative;
+    border-radius:100px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 3px 50px #2f6627;
+} 
+        #footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+         <!-- Button decoration-->
+      
+    
+      
+      
+      </style>
+             <script>
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "blue";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms5()
+        {
+             var i=document.getElementById("home");
+            i.style.color = "red";
+
+                    }
+        function butbm5()
+        {
+            var i=document.getElementById("home");
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "red";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+        function butbms6()
+        {
+             var i=document.getElementById("about");
+            i.style.color = "red";
+
+                    }
+        function butbm6()
+        {
+            var i=document.getElementById('about');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms7()
+        {
+             var i=document.getElementById("movie");
+            i.style.color = "red";
+
+                    }
+        function butbm7()
+        {
+            var i=document.getElementById('movie');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+        function foot(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="red";
+        }
+        function foo(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="white";
+        }
+        function foot1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="red";
+        }
+        function foo1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="white";
+        }
+        function foot2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="red";
+        }
+        function foo2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="white";
+        }
+        
+        
+     
+    </script>
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+  </head>
+    
+    
+  <body>
+        
+         
+<!--Star of header picture and buttons-->
+    <img src="1head.jpg" alt="SRK" width=1366 height=100>
+     <hr style="border-color:black">
+
+    <div class="fan" >
+    <button id="home" type="button" onmouseover="butbms5(this)" onmouseout="butbm5()" onClick='window.open("lister.html.html")'>HOME</button>
+    <button id="about" type="button" onmouseover="butbms6(this)" onmouseout="butbm6()" onClick='window.open("lister.html.html")'>ABOUT</button>
+    <button id="movie" type="button" onmouseover="butbms7(this)" onmouseout="butbm7()" onClick='window.open("mov.html")'>MOVIES</button>
+    <button id='bms' onClick='window.open("http://in.bookmyshow.com/","demo","width=550,height=300,left=150,top=200,toolbar=0,status=0,")' onmouseover="butbms(this)" onmouseout="butbm()">BOOK NOW</button>
+   <select name='Buy Now' id="bn" onmouseover="butbms1(this)" onmouseout="butbm1()" onchange="location = this.options[this.selectedIndex].value;" >
+    <option value='' selected>Buy Now</option>
+    <option id ='o1' value='http://www.amazon.in/' >DVD</option>
+    <option id='o2' value='http://www.snapdeal.com/'>Songs</option>
+    
+</select>
+    <button  id='nw'type="button" onmouseover="butbms2(this)" onmouseout="butbm2()" onClick='window.open("news.html")'>NEWS</button>
+    <button  id='at' type="button" onmouseover="butbms4(this)" onmouseout="butbm4()" onClick='window.open("artist.html")'>ARTISTS</button>
+    <button  id='cs'type="button" onmouseover="butbms3(this)" onmouseout="butbm3()" onClick='window.open("contact.html")'>Contact US</button>
+   </div>
+    <hr style="border-color:black; border-width=20px; ">
+  <!--End of header picture and buttons-->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!--left side div-->
+      <div id="left" style="overflow:scroll;  border:10px solid grey; line-height:30px;
+    background-color:#eeeeee;
+    height:1000px;
+    width:230px;
+    float:left;
+    padding:5px;">
+          <span style="font-size:20px;font-weight:bold;font-color:black; text-align:center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CHARACTERS</span> 
+          <ol>
+              <li><span style="font-weight:bold">Mahendra Baahubali</span></li>
+              The usurped King of the legendary kingdom of Mahishmatti
+          
+          <img src="baah.jpg" alt="baahubali" width="200" > 
+ <li><span style="font-weight:bold">Ballaladeva</span></li>
+              The evil king, son of the evil minister
+           <img src="baahbal.jpg" alt="ballaladeva" width="200" > 
+              
+               <li><span style="font-weight:bold">Kattappa</span></li>
+              The bonded slave warrior of the king
+
+           <img src="baahkat.jpg" alt="kattapa" width="200" > 
+               <li><span style="font-weight:bold">Sivagami</span></li>
+              The brave queen with the great and valor
+
+           <img src="baahque.jpg" alt="queen" width="200" >
+               <li><span style="font-weight:bold">Devesane</span></li>
+              The queen and wife of Baahubali who is enslaved by Ballaladeva
+
+           <img src="baahdev.jpg" alt="devesena" width="200" > 
+             <li><span style="font-weight:bold">Kalakeya</span></li>
+              The king of a large kingdom who declared battle against Mahishmati
+           <img src="baahkal.jpg" alt="kalaketa" width="200" > 
+              <li><span style="font-weight:bold">Bijjaladeva</span></li>
+              The disfigured father of Balladeva, with malicious intentions
+           <img src="baahnas.jpg" alt="kalaketa" width="200" > 
+         
+          </ol>
+      </div>
+      <div id="main" style="width:900">
+    <h1 >BAAHUBALI</h1>
+          <h2>Synopsis</h2>
+          A Man who can kill a hundred men can be a hero....but...a man who can save at least one life is God”. Bahubali is based on the essence of the above lines.
+
+Shivudu (Prabhas) is the actual successor of the kingdom known as Mahishmati. But unfortunately, he becomes a victim of various internal conspiracies. But fortunately, Sivagami (Ramya Krishna) saves him from the cruel hands. Later, he is raised by a tribe on the hills.
+
+After growing up into a handsome young man, Shivudu gets attracted to Avantika (Tamanna). Well, who is this Avantika? She is a rebel of a kingdom ruled by Bhallaldeva (Rana). She is in fact shown as a guerrilla-rebel group that fights against the atrocities of the kingdom ruled by Bhallaldeva.
+
+The main target of Avantika is to save Devasena (Anushka) from the hands of Bhallaldeva. Shivudu who falls in love with Avantika takes the responsibility of saving Devasena. He travels to the kingdom where Devasena is being slaved and tortured.
+
+To his surprise, the moment people notice him in that kingdom, they call him 'Bahubali'. He goes clueless about why people are treating him like god and Shivudu rescues Devasene and After meeting Kattappa (Sathyaraj), Shivudu comes to know about Bahubali and why there is enmity between him and Bhallaldeva. The rest must be watched on the screen.
+
+      <h3>Director : Rajamouli</h3>
+         <img src="rajmouli.jpg" alt="Rajamouli" width="400"> 
+         <p >S. S. Rajamouli is an Indian film director, and screenwriter known for his works exclusively in Telugu cinema. He is known for directing blockbuster films Magadheera (2009), Eega (2012) and Baahubali (2015).[2][3][4] His notable films include the sports drama film Sye, the social problem and masala film, Vikramarkudu, which was screened at the International Film Festival of India in the mainstream section.[5] The melodrama films Maryada Ramanna, Vikramarkudu and Chhatrapati were remade in various Indian languages, with successful reviews.[6][7] He has garnered the Star World India, "Entertainer of The Year", and the National Film Award in 2012. His magnus opus Baahubali part-1 was a huge commercial success and shooting for part-2 is underway. </p>
+<h3>Here are few vedios you might enjoy</h3>          
+          <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+ 
+  Your browser does not support the video tag.
+</video>
+          <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+ 
+  Your browser does not support the video tag.
+</video>
+          <video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+ 
+  Your browser does not support the video tag.
+</video>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+<div id="footer">
+SKY PRODUCTION-No content to be copied without the consent of the authorised people
+</div>
+
+          
+          
+          
+          
+          
+          
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </div>
+          
+          
+          
+          
+          
+       
+      
+      
+      
+      
+      
+      
+      
+  </body>
+
+</html>
+      

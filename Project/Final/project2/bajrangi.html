@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    
+    }
+        <!-- Button decoration-->
+    .srk{
+        background-color: blue;
+       height: 50;
+        width: 50;
+        right:100;
+        bottom: 10;
+        position: relative;
+        z-index: +2;
+    
+    }
+        
+    button, #bn{
+    font-size: 10px;
+    background-color: white;
+    color: black;
+    left:80px;
+    position:relative;
+    border-radius:100px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 3px 50px #2f6627;
+} 
+        #vedio{
+            top:400;
+            position:absolute;
+        }
+        
+        #bdy{
+            background-image: url(baj.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:1200px;
+            
+        }
+        #footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+            
+}
+        #text
+        {
+              position: absolute;
+    top: 660px;
+    color:crimson;
+            font-size: 20px;
+   
+   
+
+        }
+        #footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+        </style>
+         <!-- Button decoration-->
+      
+      
+      
+  </head>    
+                <script>
+    function butbms()
+        {
+             var i=document.getElementById("bms");
+            i.style.color = "red";
+
+                    }
+        function butbm()
+        {
+            var i=document.getElementById('bms');
+            i.style.color="black";
+        }
+        function butbms1()
+        {
+             var i=document.getElementById("bn");
+            i.style.color = "blue";
+
+                    }
+        function butbm1()
+        {
+            var i=document.getElementById('bn');
+            i.style.color="black";
+        }
+        function butbms5()
+        {
+             var i=document.getElementById("home");
+            i.style.color = "red";
+
+                    }
+        function butbm5()
+        {
+            var i=document.getElementById("home");
+            i.style.color="black";
+        }
+        function butbms2()
+        {
+             var i=document.getElementById("nw");
+            i.style.color = "red";
+
+                    }
+        function butbm2()
+        {
+            var i=document.getElementById('nw');
+            i.style.color="black";
+        }
+        function butbms6()
+        {
+             var i=document.getElementById("about");
+            i.style.color = "red";
+
+                    }
+        function butbm6()
+        {
+            var i=document.getElementById('about');
+            i.style.color="black";
+        }
+         function butbms3()
+        {
+             var i=document.getElementById("cs");
+            i.style.color = "red";
+
+                    }
+        function butbm3()
+        {
+            var i=document.getElementById('cs');
+            i.style.color="black";
+        }
+        function butbms7()
+        {
+             var i=document.getElementById("movie");
+            i.style.color = "red";
+
+                    }
+        function butbm7()
+        {
+            var i=document.getElementById('movie');
+            i.style.color="black";
+        }
+        function butbms4()
+        {
+             var i=document.getElementById("at");
+            i.style.color = "red";
+
+                    }
+        function butbm4()
+        {
+            var i=document.getElementById('at');
+            i.style.color="black";
+        }
+        function foot(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="red";
+        }
+        function foo(x)
+        {
+            var x=document.getElementById("f1");
+        x.style.color="white";
+        }
+        function foot1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="red";
+        }
+        function foo1(x)
+        {
+            var x=document.getElementById("f2");
+        x.style.color="white";
+        }
+        function foot2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="red";
+        }
+        function foo2(x)
+        {
+            var x=document.getElementById("f3");
+        x.style.color="white";
+        }
+        
+        
+     
+    </script>
+
+      
+      
+      
+   
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+  
+    
+    
+  <header>        
+         
+<!--Star of header picture and buttons-->
+    <img src="1head.jpg" alt="SRK" width=1366 height=100>
+     <hr style="border-color:black">
+ <div class="fan" >
+    <button id="home" type="button" onmouseover="butbms5(this)" onmouseout="butbm5()" onClick='window.open("lister.html.html")'>HOME</button>
+    <button id="about" type="button" onmouseover="butbms6(this)" onmouseout="butbm6()" onClick='window.open("lister.html.html")'>ABOUT</button>
+    <button id="movie" type="button" onmouseover="butbms7(this)" onmouseout="butbm7()" onClick='window.open("mov.html")'>MOVIES</button>
+    <button id='bms' onClick='window.open("http://in.bookmyshow.com/","demo","width=550,height=300,left=150,top=200,toolbar=0,status=0,")' onmouseover="butbms(this)" onmouseout="butbm()">BOOK NOW</button>
+   <select name='Buy Now' id="bn" onmouseover="butbms1(this)" onmouseout="butbm1()" onchange="location = this.options[this.selectedIndex].value;" >
+    <option value='' selected>Buy Now</option>
+    <option id ='o1' value='http://www.amazon.in/' >DVD</option>
+    <option id='o2' value='http://www.snapdeal.com/'>Songs</option>
+    
+</select>
+    <button  id='nw'type="button" onmouseover="butbms2(this)" onmouseout="butbm2()" onClick='window.open("news.html")'>NEWS</button>
+    <button  id='at' type="button" onmouseover="butbms4(this)" onmouseout="butbm4()" onClick='window.open("artist.html")'>ARTISTS</button>
+    <button  id='cs'type="button" onmouseover="butbms3(this)" onmouseout="butbm3()" onClick='window.open("contact.html")'>Contact US</button>
+   </div>
+    <hr style="border-color:black; border-width=20px; ">
+  <!--End of header picture and buttons-->
+      </header>
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!--left side div-->
+      
+      
+      
+      
+<div id='bdy' style="width:1400px; heigth:4000px; border:10px solid white">      
+     
+    
+    
+    
+    
+    
+    <div id="text">
+        <p>
+    Bajrangi Bhaijaan (English translation: Brother Bajrangi) is a 2015 Indian comedy-drama film directed by Kabir Khan. Scripted by K. V. Vijayendra Prasad, the film was produced by Salman Khan and Rockline Venkatesh. It stars Khan and Harshaali Malhotra in the lead roles, and Nawazuddin Siddiqui and Kareena Kapoor Khan feature in supporting roles. Khan stars as Bajrangi, and ardent devotee of a Hindu deity, Hanuman, who embarks on taking a six-year old Pakistani girl (Malhotra) separated in India from her parents, back to her hometown.
+    </p>
+    <h2>Cast</h2>
+Salman Khan as Pawan Kumar Chaturvedi / Bajrangi<br>
+Kareena Kapoor as Rasika<br>
+Harshaali Malhotra as Shahida alias Munni
+        <h3> Achievements
+        <ol>
+            <li>
+             The film made 100 crores in just three days of its release at the domestic box office. That easily makes Bajrangi Bhaijaan the fastest film to hit a century.</li>
+            <li>Successfully running in cinema halls currently, Bajrangi Bhaijaan has already become the third highest grosser of the year, after Tanu Weds Manu Returns and ABCD 2.</li>
+            <li>With Rs. 36.50 crore to its credit made on its second day, Bajrangi Bhaijaan has become Salman Khan’s highest one day collection project ever.</li>
+            <li>Bajrangi Bhaijaan is Salman Khan’s eighth consecutive 100 crore film. Here’s the list – Dabangg, Ready, Bodyguard, Ek Tha Tiger, Dabangg 2, Jai Ho, Kick, Bajrangi Bhaijaan. </li>
+            <li>Kabir Khan’s project has become the highest pre-Eid opener in the entire history of Bollywood. Salman’s last flick, Kick, which had raked in Rs. 26.40 crore on its first day, got a clear beating by the actor’s latest movie, which clocked in Rs 27.25 crore on its Day 1.</li>
+<li>Bajrangi Bhaijaan, after setting the cash registers on its very first day at the box office earning Rs. 27.25 crore, has become the biggest Bollywood opener of the year, beating Remo D’Souza’s blockbuster dance project, ABCD 2, the opening day score of which was Rs. 14.30 crore.</li>            </ol>
+            
+            
+            
+            
+            
+            
+            </ol>
+        
+       
+<div id="footer">
+Sky Production
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </h3>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+  </div>
+
+</html>
+      
